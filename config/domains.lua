@@ -6,25 +6,25 @@ return {
          multiplexing = 'None',
 
          -- The name of this specific domain. Must be unique amongst
-         name = 'Kali-linux',
+         name = 'server 407',
 
          -- identifies the host:port pair of the remote server
          -- Can be a DNS name or an IP address with an optional
          -- ":port" on the end.
-         remote_address = '192.168.44.147:22',
+         remote_address = '172.16.50.53:8407',
 
          -- Whether agent auth should be disabled.
          -- Set to true to disable it.
          -- no_agent_auth = false,
 
          -- The username to use for authenticating with the remote host
-         username = 'kali',
+         username = 'jliu',
 
          -- Specify a SSH connection authentication file
          -- Default authentication file is "~/.ssh/id_rsa"
-         ssh_option = {
-            identityfile = 'C:\\Users\\Fizz\\.ssh\\id_rsa',
-         },
+         -- ssh_option = {
+         --    identityfile = 'C:\\Users\\Fizz\\.ssh\\id_rsa',
+         -- },
       },
    },
 

@@ -16,13 +16,13 @@ return {
    -- background
    background = {
       {
-         source = { File = wezterm.config_dir .. '/backdrops/space.jpg' },
+         source = { File = wezterm.config_dir .. '/backdrops/punk.jpg' },
       },
       {
          source = { Color = colors.background },
          height = '100%',
          width = '100%',
-         opacity = 0.00,
+         opacity = 0.90,
       },
    },
 
